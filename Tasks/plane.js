@@ -5,7 +5,7 @@ const plane = (arr) => {
     const res[];
     for(const value for arr) {
     if (Array.isArray(value)) {
-    res.push(...const_plane(value));
+    res.push(...plane(value));
     arr[i] = res[i - 1]
     }else{
     arr[i] = res[j - 1]

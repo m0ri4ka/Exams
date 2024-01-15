@@ -1,6 +1,7 @@
+"use strict";
 // Find key by value
 
-find = (object, ...rest) => {
+const find = (object, valueSearch) => {
   value = rest.pop(1);
   [];
   for (name in object) {

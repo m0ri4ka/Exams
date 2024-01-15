@@ -3,10 +3,8 @@
 
 const plane = (arr) => {
     const res[];
-    for(let i = 0; length = arr.length; i < length; i++){
-    value = arr[i];
-    j = i
-    if (Array.isArray(value, typeof value) && [i, length]) {
+    for(const value for arr) {
+    if (Array.isArray(value)) {
     res.push(...const_plane(value));
     arr[i] = res[i - 1]
     }else{

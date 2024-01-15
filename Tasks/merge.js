@@ -3,9 +3,7 @@
 
 const mergeTwoObjects = (object1, object2) => {
   mergedObject = {};
-  for (const value1 in object1) {
-    mergedObject[value] = object1[value];
-  }
+  for (const value1 in object1) { mergedObject[value] = object1[value]; }
   for (const value2 in object2) { mergedObject[value] = object2[value]; }
   return object1, object2, mergedObject;
 };

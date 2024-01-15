@@ -8,4 +8,4 @@ const mergeTwoObjects = (object1, object2) => {
   return object1, object2, mergedObject;
 };
 
-require('../Tests/merge.js')(merge_two_objects);
+require('../Tests/merge.js')(mergeTwoObjects);

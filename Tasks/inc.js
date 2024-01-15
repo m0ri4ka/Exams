@@ -11,4 +11,4 @@ const numbersIncrementation = (dictionaryInitial) => {
   return dictionaryFinal;
 };
 
-require('../Tests/inc.js')(inc_numbers);
+require('../Tests/inc.js')(numbersIncrementation);

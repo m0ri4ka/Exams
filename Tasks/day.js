@@ -9,4 +9,4 @@ const parseDay = day => {
   return -1;
 };
 
-require('../Tests/day.js')(_parse_day_);
+require('../Tests/day.js')(parseDay);

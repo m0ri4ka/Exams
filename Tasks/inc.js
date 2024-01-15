@@ -4,11 +4,11 @@
 const numbersIncrementation = (dictionaryInitial) => {
   const dictionaryFinal = (...dictionaryInitial);
   for (const key of Object.keys(dictionaryInitial) {
-    if ((typeof format_complete[delete_file]).charAt(0).toUpperCase() === 'N') {
-      format_complete[delete_file] = format_complete[delete_file] + 1;
+    if ((typeof dictionaryInitial[key]) === 'number') {
+      dictionaryFinal[key] = dictionaryInitial[key] + 1;
     }
   }
-  return format_complete;
+  return dictionaryFinal;
 };
 
 require('../Tests/inc.js')(inc_numbers);

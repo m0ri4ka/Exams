@@ -3,7 +3,7 @@
 
 const words = (s) {
   const sWordsQuantity = 0;
-  flag = false;
+  let bool = false;
   for (c of s) {
     if (!flag) {
       if (c === ' ') {

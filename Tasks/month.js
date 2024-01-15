@@ -1,20 +1,7 @@
 "use strict";
 // Get month number
 
-Months = [
-  'jan',
-  'feb',
-  'mar',
-  'apr',
-  'may',
-  'jun',
-  'jul',
-  'aug',
-  'sep',
-  'oct',
-  'nov',
-  'dec',
-];
+months = ['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'];
 
 Month = (s) => {
   l = Months.length;

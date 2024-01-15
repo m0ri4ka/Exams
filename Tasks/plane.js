@@ -7,6 +7,6 @@ const plane = (arr) => {
     if (Array.isArray(value)) { res.push(...plane(value)); } else { res.push(value); };
   };
   return res;
-}
+};
 
-require('../Tests/plane.js')(const_plane);
+require('../Tests/plane.js')(plane);

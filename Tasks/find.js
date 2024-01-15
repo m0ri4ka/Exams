@@ -2,8 +2,6 @@
 // Find key by value
 
 const find = (object, valueSearch) => {
-  value = rest.pop(1);
-  [];
   for (name in object) {
     if (object[name] !== value) {
     } else {

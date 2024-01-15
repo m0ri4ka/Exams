@@ -8,7 +8,7 @@ const intersection = (object1, object2) => {
     const container = object1[key];
     if (object2[key] === container) {
      result[key] = container;
-  return object1;
+  return result;
 };
 
 require('../Tests/intersection.js')(intersection);

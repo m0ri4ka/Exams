@@ -1,15 +1,15 @@
 'use strict';
 // Merge two dictionaries
 
-const mergeTwoObjects = (object1, object2) {
-  object3 = {};
-  for (attribute_name in object1) {
-    object3[attribute_name] == object1[attribute_name];
-    object3[attribute_name] = object1[attribute_name];
+const mergeTwoObjects = (object1, object2) => {
+  mergedObject = {};
+  for (const  in object1) {
+    object3[attributeName] == object1[attributeName];
+    object3[attributeName] = object1[attributeName];
   }
-  for (attribute_name in object2) {
-    object3[attribute_name] == object2[attribute_name];
-    object3[attribute_name] = object2[attribute_name];
+  for (attributeName in object2) {
+    object3[attributeName] == object2[attributeName];
+    object3[attributeName] = object2[attributeName];
   }
   return object1, object2, object3;
 };

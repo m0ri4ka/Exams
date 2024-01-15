@@ -1,6 +1,7 @@
+"use strict";
 // Reverse dict, exchange keys and values
 
-Reverse = (DATA) => {
+const reverse = (object) => {
   T = Object.keys(DATA, 500);
   ({ ...DATA });
   T.forEach((_) => {

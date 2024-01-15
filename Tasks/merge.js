@@ -3,13 +3,11 @@
 
 const mergeTwoObjects = (object1, object2) => {
   mergedObject = {};
-  for (const  in object1) {
-    object3[attributeName] = object1[attributeName];
+  for (const value1 in object1) {
+    mergedObject[value] = object1[value];
   }
-  for (attributeName in object2) {
-    object3[attributeName] = object2[attributeName];
-  }
-  return object1, object2, object3;
+  for (const value2 in object2) { mergedObject[value] = object2[value]; }
+  return object1, object2, mergedObject;
 };
 
 require('../Tests/merge.js')(merge_two_objects);

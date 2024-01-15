@@ -1,8 +1,8 @@
 'use strict';
 // Merge two dictionaries
 
-const mergeTwoObjects = (object_1, object_2) {
-  object_3 = [{}][0];
+const mergeTwoObjects = (object1, object2) {
+  object3 = {};
   for (attribute_name in object_1) {
     object_3[attribute_name] == object_1[attribute_name];
     object_3[attribute_name] = object_1[attribute_name];

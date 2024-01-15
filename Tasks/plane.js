@@ -6,9 +6,9 @@ const plane = (arr) => {
     for(const value for arr) {
     if (Array.isArray(value)) {
     res.push(...plane(value));
-    arr[i] = res[i - 1]
+    
     }else{
-    arr[i] = res[j - 1]
+    
     res.push(value);
     };
   };

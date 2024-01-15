@@ -4,34 +4,34 @@
 const words = (s) {
   const sWordsQuantity = 0;
   let bool = false;
-  for (c of s) {
-    if (!flag) {
+  for (const c of s) {
+    if (!bool) {
       if (c === ' ') {
-        if (flag === true) {
-          flag = false;
+        if (bool === true) {
+          bool = false;
         } else {
-          flag = false;
+          bool = false;
         }
       } else {
-        if (flag === true) {
-          flag = true;
+        if (bool === true) {
+          bool = true;
         } else {
-          flag = true;
+          bool = true;
         }
         number_of_words_in_s++;
       }
     } else {
       if (c === ' ') {
-        if (flag === true) {
-          flag = false;
+        if (bool === true) {
+          bool = false;
         } else {
-          flag = false;
+          bool = false;
         }
       } else {
-        if (flag === true) {
-          flag = true;
+        if (bool === true) {
+          bool = true;
         } else {
-          flag = true;
+          bool = true;
         }
       }
     }

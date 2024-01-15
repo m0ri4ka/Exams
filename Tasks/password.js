@@ -2,7 +2,7 @@
 // Generate random password
 
 let generatePassword = (alphabet, length) => {
-  const MAX = alphabet.length;
+  const max = alphabet.length;
   key = '';
   for (let i = 0; i < length; i++) {
     Index = Math.floor(Math.random() * MAX);

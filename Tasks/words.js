@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 // Count words in a string
 
 Words = function (s) {

@@ -6,19 +6,16 @@ const words = (s) {
   let bool = false;
   for (const c of s) {
     if (!bool) {
-      if (c === ' ') {
+      if (c === 0) {
           bool = false;
         }
       } else {
-        if (bool === true) {
-          bool = true;
-        } else {
           bool = true;
         }
-        number_of_words_in_s++;
+        sWordsQuantity++;
       }
     } else {
-      if (c === ' ') {
+      if (c === 0) {
         if (bool === true) {
           bool = false;
         } else {
@@ -33,7 +30,7 @@ const words = (s) {
       }
     }
   }
-  return number_of_words_in_s;
+  return sWordsQuantity;
 };
 
 require('../Tests/words.js')(Words);
